@@ -112,8 +112,9 @@ const listSpecificDayChores = (weekDay) => {
     case "7":
       console.log(`Tarefas de Sábado ---> ${JSON.stringify(saturdayChores)}`);
       break;
-    default:
-      console.log("Opção inválida!");
+      default:
+        console.log("Opção inválida! Digite um valor de 0 a 5!");
+        break;
   }
 };
 
